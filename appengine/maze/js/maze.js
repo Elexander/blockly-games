@@ -33,7 +33,7 @@ goog.require('BlocklyInterface');
 goog.require('Blockly.FieldDropdown');
 
 BlocklyGames.NAME = 'maze';
-
+BlocklyGames.LEVEL = 3;
 /**
  * Go to the next level.
  */
