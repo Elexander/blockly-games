@@ -37,16 +37,16 @@ BlocklyGames.LEVEL = 3;
 /**
  * Go to the next level.
  */
-BlocklyInterface.nextLevel = function() {
-/*   if (BlocklyGames.LEVEL < BlocklyGames.MAX_LEVEL) {
+/* BlocklyInterface.nextLevel = function() {
+  if (BlocklyGames.LEVEL < BlocklyGames.MAX_LEVEL) {
     window.location = window.location.protocol + '//' +
         window.location.host + window.location.pathname +
         '?lang=' + BlocklyGames.LANG + '&level=' + (BlocklyGames.LEVEL + 1) +
         '&skin=' + Maze.SKIN_ID;
   } else {
     BlocklyInterface.indexPage();
-  } */
-};
+  }
+}; */
 
 Maze.MAX_BLOCKS = [undefined, // Level 0.
     Infinity, Infinity, 2, 5, 5, 5, 5, 10, 7, 10][BlocklyGames.LEVEL];
